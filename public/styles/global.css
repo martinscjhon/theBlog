@@ -1,0 +1,42 @@
+:root{
+  /* Cores */
+  --roxo-300: #9E6DC2;
+  --roxo-500: #290742;
+  --roxo-100: #170027;
+  --line: #4FFF4B;
+  --white-200: #FBF6FF;
+  --white: #FFF;
+  --black: #000;
+
+  /* font */
+  --font-padrao: "Poppins"
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.sr-only{
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;;
+  clip-path: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
