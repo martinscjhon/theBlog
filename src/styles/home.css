@@ -1,0 +1,38 @@
+#home{
+  background-color: var(--roxo-300);
+  width: 100%;
+  height: 700px;
+}
+
+.content{
+  max-width: 1550px;
+  margin: auto;
+  padding-top: 15rem;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 11.4rem 1fr;
+  grid-template-areas:
+  "col-1  col-2"
+  "col-1  col-2"
+  ;
+}
+
+.content .text{
+  grid-area: 'col-1';
+  width: 60%;
+}
+
+.text h1{
+  color: var(--roxo-500);
+  font-size: 2.25rem;
+}
+
+.text p{
+  color: var(--white-200);
+  font-size: 1.125rem;
+  width: 100%;
+}
+
+.content .image-content{
+  grid-area: 'col-2';
+}
