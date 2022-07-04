@@ -6,12 +6,12 @@
           <h1>{{title}}</h1>
           <p>{{subTitle}}</p>
 
-          <a href="">
-            <div>
-              <h3></h3>
-              <img :src="images[0].arrow" :alt="images[0].alt" />
+            <div class="saiba-mais">
+              <a href="">
+                <h3>{{linkVejaMais}}</h3>
+                <img :src="images[0].arrow" :alt="images[0].alt" />
+              </a>
             </div>
-          </a>
         </div>
       </div>
 
@@ -29,6 +29,7 @@ export default {
     return {
       title: 'Veja o guia definitivo para conquistar seus objetivos como DEV em 2022',
       subTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique placerat hac.',
+      linkVejaMais: 'Veja mais',
       images: [
         {
           // eslint-disable-next-line global-require
