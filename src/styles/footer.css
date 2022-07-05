@@ -1,0 +1,30 @@
+#footer{
+  width: 100vw;
+  height: 200px;
+  margin-top: 8rem;
+  background-color: var(--roxo-100);
+}
+
+#footer .container{
+  max-width: 1550px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+#footer .social-midia{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+#footer .social-midia img{
+  width: 3rem;
+}
+
+#footer .container .social-midia h4{
+  color: var(--white);
+}
+

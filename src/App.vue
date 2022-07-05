@@ -4,6 +4,7 @@
     <HomeComponent />
     <AboutUsComponent />
     <CategoryComponent />
+    <FooterComponent />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import HeaderComponent from './components/Header.vue';
 import HomeComponent from './components/Home.vue';
 import AboutUsComponent from './components/AboutUs.vue';
 import CategoryComponent from './components/Category.vue';
+import FooterComponent from './components/Footer.vue';
 
 export default {
 
@@ -21,6 +23,7 @@ export default {
     HomeComponent,
     AboutUsComponent,
     CategoryComponent,
+    FooterComponent,
   },
 };
 </script>
