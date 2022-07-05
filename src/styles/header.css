@@ -1,14 +1,15 @@
 #header{
   width: 100vw;
   position: fixed;
-  z-index: 999;
+  z-index: 9999;
+  background-color: var(--roxo-100);
 }
 
 header{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 3.93rem;
+  padding: 1.93rem;
   gap: 23rem;
 }
 
@@ -26,7 +27,7 @@ header nav ul li a{
 header .search{
   display: flex;
   align-items: center;
-  background-color: var(--roxo-100);
+  background-color: var(--roxo-300);
   border-radius: 3px 0px 0px 3px;
 }
 

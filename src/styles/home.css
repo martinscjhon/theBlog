@@ -6,10 +6,10 @@
 }
 
 #home::after{
-  content: '--';
+  content: '';
   position: absolute;
   width: 100vw;
-  height: 0.8rem;
+  height: 0.5rem;
   background-color: var(--line);
   z-index: 999;
   bottom: 0;
