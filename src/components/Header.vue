@@ -7,10 +7,10 @@
 
       <nav>
         <ul>
-          <li><a href="">{{links.name.home}}</a></li>
-          <li><a href="">{{links.name.aboutUs}}</a></li>
-          <li><a href="">{{links.name.category}}</a></li>
-          <li><a href="">{{links.name.contact}}</a></li>
+          <li><a href="#home">{{links.name.home}}</a></li>
+          <li><a href="#aboutus">{{links.name.aboutUs}}</a></li>
+          <li><a href="#category">{{links.name.category}}</a></li>
+          <li><a href="#footer">{{links.name.contact}}</a></li>
         </ul>
       </nav>
 

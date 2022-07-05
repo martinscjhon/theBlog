@@ -9,9 +9,9 @@
 
       <div class="social-midia">
         <div v-for="footerInfo in footerInfo" :key="footerInfo.icon">
-          <button>
+          <div>
             <img :src="footerInfo.icon" :alt="footerInfo.alt" />
-          </button>
+          </div>
           <h4>{{footerInfo.description}}</h4>
         </div>
       </div>

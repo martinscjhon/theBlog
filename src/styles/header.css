@@ -22,6 +22,23 @@ header nav ul{
 header nav ul li a{
   text-decoration: none;
   color: var(--white);
+  position: relative;
+  font-size: 1.2rem;
+  transition: height .2s;
+}
+
+header nav ul li a::before{
+  content: '';
+  background-color: var(--line);
+  left: -8px;
+  position: absolute;
+  height: 0%;
+  width: 3px;
+  transition: height .2s;
+}
+
+nav ul li a:hover::before{
+  height: 100%;
 }
 
 header .search{
