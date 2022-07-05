@@ -1,0 +1,27 @@
+#category{
+  width: 100vw;
+  height: auto;
+  max-width: 1550px;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+#category section{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5rem;
+}
+
+#category section img{
+  width: 99%;
+}
+
+#category section h3{
+  font-size: 1.3rem;
+  width: 100%;
+}
+
+#category section p{
+  font-size: 1rem;
+  width: 100%;
+}

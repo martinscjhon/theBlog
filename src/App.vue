@@ -3,6 +3,7 @@
     <HeaderComponent />
     <HomeComponent />
     <AboutUsComponent />
+    <CategoryComponent />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import HeaderComponent from './components/Header.vue';
 import HomeComponent from './components/Home.vue';
 import AboutUsComponent from './components/AboutUs.vue';
+import CategoryComponent from './components/Category.vue';
 
 export default {
 
@@ -18,6 +20,7 @@ export default {
     HeaderComponent,
     HomeComponent,
     AboutUsComponent,
+    CategoryComponent,
   },
 };
 </script>
